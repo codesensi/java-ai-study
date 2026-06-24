@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-ai-study
+#  ai:
+#    openai:
+#      api-key: xxxxxx
+#      base-url: xxxxxx
+  config:
+    import: classpath:api-keys.yml
