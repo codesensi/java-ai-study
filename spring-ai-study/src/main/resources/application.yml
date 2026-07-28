@@ -1,11 +1,12 @@
 spring:
   application:
     name: spring-ai-study
+  config:
+    import: classpath:api-keys.yml
 #  ai:
 #    openai:
 #      api-key: xxxxxx
 #      base-url: xxxxxx
 #      chat:
 #        model: xxxxxx
-  config:
-    import: classpath:api-keys.yml
+
